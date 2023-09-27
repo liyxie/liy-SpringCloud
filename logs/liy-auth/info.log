@@ -1,0 +1,72 @@
+00:00:11.652 [http-nio-8081-exec-9] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+00:04:03.309 [http-nio-8081-exec-2] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+00:04:24.559 [http-nio-8081-exec-1] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+00:05:38.371 [http-nio-8081-exec-3] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+00:06:21.344 [http-nio-8081-exec-5] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+00:07:11.113 [http-nio-8081-exec-7] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+00:10:22.058 [http-nio-8081-exec-8] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+00:13:33.121 [http-nio-8081-exec-10] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+00:15:22.989 [http-nio-8081-exec-1] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:18:10.895 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+23:18:11.214 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:18:11.214 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:18:14.083 [main] INFO  c.l.a.LiyAuthApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+23:18:15.626 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+23:18:15.626 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:18:15.626 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+23:18:15.767 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:18:16.000 [main] INFO  c.a.d.p.DruidDataSource - [close,2170] - {dataSource-0} closing ...
+23:18:16.000 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+23:18:47.938 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+23:18:48.238 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:18:48.238 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:18:50.714 [main] INFO  c.l.a.LiyAuthApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+23:18:51.875 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+23:18:51.875 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:18:51.875 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+23:18:51.984 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:18:52.182 [main] INFO  c.a.d.p.DruidDataSource - [close,2170] - {dataSource-0} closing ...
+23:18:52.182 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+23:20:09.550 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+23:20:09.829 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:20:09.829 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:20:12.202 [main] INFO  c.l.a.LiyAuthApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+23:20:13.180 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+23:20:13.180 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:20:13.180 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+23:20:13.290 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:20:13.487 [main] INFO  c.a.d.p.DruidDataSource - [close,2170] - {dataSource-0} closing ...
+23:20:13.487 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+23:22:40.598 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+23:22:40.871 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:22:40.871 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:22:44.396 [main] INFO  c.l.a.LiyAuthApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+23:22:46.027 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+23:22:46.028 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:22:46.028 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+23:22:46.152 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:22:46.370 [main] INFO  c.a.d.p.DruidDataSource - [close,2170] - {dataSource-0} closing ...
+23:22:46.371 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+23:26:12.828 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+23:26:13.087 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:26:13.087 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:26:15.472 [main] INFO  c.l.a.LiyAuthApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+23:26:16.501 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+23:26:16.501 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:26:16.501 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+23:26:16.594 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:26:21.962 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+23:26:23.264 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:26:23.264 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:26:23.428 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP liy-auth 192.168.137.1:8081 register finished
+23:26:24.744 [main] INFO  c.l.a.LiyAuthApplication - [logStarted,61] - Started LiyAuthApplication in 13.456 seconds (JVM running for 14.363)
+23:26:24.744 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth-dev.yml, group=DEFAULT_GROUP
+23:26:24.744 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth, group=DEFAULT_GROUP
+23:26:24.760 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth.yml, group=DEFAULT_GROUP
+23:27:15.140 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:27:15.211 [http-nio-8081-exec-2] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+23:27:15.700 [http-nio-8081-exec-2] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:32:21.123 [http-nio-8081-exec-3] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:33:29.484 [http-nio-8081-exec-5] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:36:08.819 [http-nio-8081-exec-7] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:48:07.244 [http-nio-8081-exec-9] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a

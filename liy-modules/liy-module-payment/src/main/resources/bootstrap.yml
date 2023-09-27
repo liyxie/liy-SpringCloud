@@ -1,0 +1,20 @@
+server:
+  port: 8183
+
+spring:
+  application:
+    name: liy-module-payment
+
+  profiles:
+    active: dev
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.134.121.204:8848
+
+      config:
+        file-extension: yml
+        server-addr: 8.134.121.204:8848
+        shared-configs:
+          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}

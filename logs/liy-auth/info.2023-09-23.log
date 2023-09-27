@@ -1,0 +1,33 @@
+23:38:32.383 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+23:38:32.736 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:38:32.736 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:38:35.270 [main] INFO  c.l.a.LiyAuthApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+23:38:36.386 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+23:38:36.386 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:38:36.386 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+23:38:36.487 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:38:42.089 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+23:38:43.368 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:38:43.368 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:38:43.544 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP liy-auth 192.168.137.1:8081 register finished
+23:38:44.819 [main] INFO  c.l.a.LiyAuthApplication - [logStarted,61] - Started LiyAuthApplication in 14.097 seconds (JVM running for 15.207)
+23:38:44.829 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth-dev.yml, group=DEFAULT_GROUP
+23:38:44.829 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth, group=DEFAULT_GROUP
+23:38:44.829 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth.yml, group=DEFAULT_GROUP
+23:40:12.141 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:40:12.183 [http-nio-8081-exec-2] INFO  c.l.a.c.AuthController - [login,70] - loginUserDto:   LoginBody(userName=admin, password=12345, sysType=2)
+23:40:12.234 [http-nio-8081-exec-2] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+23:40:12.907 [http-nio-8081-exec-2] INFO  c.l.a.s.AuthService - [login,56] - AuthAccountBo{uid=1, createTime=Thu Sep 07 20:47:44 CST 2023, updateTime=Thu Sep 07 20:47:48 CST 2023, username='admin', password='12345', createIp='0001', status=1, sysType=2, userId=0, tenantId=0, isAdmin=1}
+23:40:12.912 [http-nio-8081-exec-2] INFO  c.l.a.s.AuthService - [login,58] - AuthAccountInfoPo{uid=1, username='admin', sysType=2, userId=0, tenantId=0, isAdmin=1}
+23:40:12.912 [http-nio-8081-exec-2] INFO  c.l.a.s.AuthService - [login,60] - AuthAccountInfoPo{uid=1, username='admin', sysType=2, userId=0, tenantId=0, isAdmin=1}
+23:40:12.942 [http-nio-8081-exec-2] INFO  c.l.a.c.AuthController - [login,73] - AuthAccountInfoPo{uid=1, username='admin', sysType=2, userId=0, tenantId=0, isAdmin=1}
+23:40:13.446 [http-nio-8081-exec-2] INFO  c.l.a.s.TokenService - [createTokenPoByUserInfo,64] - TokenInfoBO{userInfoInToken=AuthAccountInfoPo{uid=1, username='admin', sysType=2, userId=0, tenantId=0, isAdmin=1}, accessToken='3767af5e0dbb4ce8ae03b7ed2fd58fdb', refreshToken='null', expiresIn=300000}
+23:40:35.588 [http-nio-8081-exec-1] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:3767af5e0dbb4ce8ae03b7ed2fd58fdb
+23:40:52.714 [http-nio-8081-exec-3] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:42:36.337 [http-nio-8081-exec-6] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:46:18.248 [http-nio-8081-exec-9] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:47:09.046 [http-nio-8081-exec-10] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:52:30.587 [http-nio-8081-exec-1] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:53:08.974 [http-nio-8081-exec-4] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:54:52.642 [http-nio-8081-exec-5] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a
+23:55:56.186 [http-nio-8081-exec-6] INFO  c.l.a.s.TokenService - [checkToken,100] - liy_user:info:6b93d152421942e2abd10d079a65ac3a

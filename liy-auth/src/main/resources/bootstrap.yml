@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+
+  application:
+    name: liy-auth
+
+  profiles:
+    active: dev
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.134.121.204:8848
+
+      config:
+        server-addr: 8.134.121.204:8848
+        file-extension: yml
+        # 共享配置
+        shared-configs:
+          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+

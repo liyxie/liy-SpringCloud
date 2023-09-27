@@ -1,0 +1,40 @@
+20:33:22.143 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+20:33:22.504 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+20:33:22.504 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+20:33:25.599 [main] INFO  c.l.a.LiyAuthApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+20:33:27.118 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+20:33:27.121 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:33:27.121 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+20:33:27.287 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:33:33.322 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+20:33:34.999 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+20:33:34.999 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+20:33:35.175 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP liy-auth 192.168.56.1:8081 register finished
+20:33:36.531 [main] INFO  c.l.a.LiyAuthApplication - [logStarted,61] - Started LiyAuthApplication in 16.097 seconds (JVM running for 17.389)
+20:33:36.531 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth-dev.yml, group=DEFAULT_GROUP
+20:33:36.531 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth, group=DEFAULT_GROUP
+20:33:36.531 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth.yml, group=DEFAULT_GROUP
+20:43:46.004 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:43:46.085 [http-nio-8081-exec-1] INFO  c.l.a.c.AuthController - [login,70] - loginUserDto:   LoginBody(userName=admin, password=12345, sysType=2)
+20:43:46.180 [http-nio-8081-exec-1] INFO  c.a.d.p.DruidDataSource - [init,1010] - {dataSource-1} inited
+20:43:47.097 [http-nio-8081-exec-1] INFO  c.l.a.s.AuthService - [login,56] - AuthAccountBo{uid=1, createTime=Thu Sep 07 20:47:44 CST 2023, updateTime=Thu Sep 07 20:47:48 CST 2023, username='admin', password='12345', createIp='0001', status=1, sysType=2, userId=0, tenantId=0, isAdmin=1}
+20:43:47.105 [http-nio-8081-exec-1] INFO  c.l.a.s.AuthService - [login,58] - AuthAccountInfoPo{uid=1, username='admin', sysType=2, userId=0, tenantId=0, isAdmin=1}
+20:43:47.105 [http-nio-8081-exec-1] INFO  c.l.a.s.AuthService - [login,60] - AuthAccountInfoPo{uid=1, username='admin', sysType=2, userId=0, tenantId=0, isAdmin=1}
+20:43:47.121 [http-nio-8081-exec-1] INFO  c.l.a.c.AuthController - [login,73] - AuthAccountInfoPo{uid=1, username='admin', sysType=2, userId=0, tenantId=0, isAdmin=1}
+20:43:48.140 [http-nio-8081-exec-1] INFO  c.l.a.s.TokenService - [createTokenPoByUserInfo,64] - TokenInfoBO{userInfoInToken=AuthAccountInfoPo{uid=1, username='admin', sysType=2, userId=0, tenantId=0, isAdmin=1}, accessToken='6b93d152421942e2abd10d079a65ac3a', refreshToken='null', expiresIn=300000}
+23:24:55.136 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+23:24:55.405 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:24:55.406 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:24:57.980 [main] INFO  c.l.a.LiyAuthApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+23:24:59.021 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8081"]
+23:24:59.029 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:24:59.029 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+23:24:59.151 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:25:04.513 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8081"]
+23:25:05.815 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+23:25:05.815 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+23:25:05.999 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP liy-auth 192.168.56.1:8081 register finished
+23:25:07.329 [main] INFO  c.l.a.LiyAuthApplication - [logStarted,61] - Started LiyAuthApplication in 13.764 seconds (JVM running for 15.053)
+23:25:07.345 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth-dev.yml, group=DEFAULT_GROUP
+23:25:07.345 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth, group=DEFAULT_GROUP
+23:25:07.345 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=liy-auth.yml, group=DEFAULT_GROUP

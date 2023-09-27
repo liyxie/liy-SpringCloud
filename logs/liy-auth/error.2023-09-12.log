@@ -1,0 +1,5 @@
+23:09:54.917 [http-nio-8081-exec-1] ERROR c.l.a.s.TokenService - [checkToken,113] - 获取用户信息异常'令牌过期'
+23:10:00.676 [http-nio-8081-exec-3] ERROR c.l.a.s.TokenService - [checkToken,113] - 获取用户信息异常'令牌过期'
+23:28:09.225 [http-nio-8081-exec-6] ERROR c.l.a.s.TokenService - [checkToken,113] - 获取用户信息异常'令牌过期'
+23:28:28.463 [http-nio-8081-exec-7] ERROR c.l.a.s.TokenService - [checkToken,113] - 获取用户信息异常'令牌过期'
+23:31:33.709 [http-nio-8081-exec-2] ERROR c.l.a.s.TokenService - [checkToken,113] - 获取用户信息异常'令牌过期'

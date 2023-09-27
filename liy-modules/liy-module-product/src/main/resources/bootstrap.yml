@@ -1,0 +1,20 @@
+server:
+  port: 8182
+
+spring:
+  application:
+    name: liy-module-product
+
+  profiles:
+    active: dev
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.134.121.204:8848
+
+      config:
+        file-extension: yml
+        server-addr: 8.134.121.204:8848
+        shared-configs:
+          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}

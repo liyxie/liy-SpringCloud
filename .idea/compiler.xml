@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="liy-module-user" />
+        <module name="liy-api-product" />
+        <module name="liy-module-order" />
+        <module name="liy-module-payment" />
+        <module name="liy-api-user" />
+        <module name="liy-api-order" />
+        <module name="liy-gateway" />
+        <module name="liy-api-auth" />
+        <module name="liy-model" />
+        <module name="liy-common-cache" />
+        <module name="liy-auth" />
+        <module name="liy-common-generation" />
+        <module name="liy-common-security" />
+        <module name="liy-module-product" />
+        <module name="liy-common-core" />
+        <module name="liy-api-payment" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+# 项目排除路径
+/liy-api/liy-api-auth/target/
+/liy-auth/target/
+/liy-common/liy-common-cache/target/
+/liy-common/liy-common-core/target/
+/liy-common/liy-common-generation/target/
+/liy-common/liy-common-security/target/
+/liy-gateway/target/
+/liy-model/target/
+/liy-modules/liy-module-product/target/
+/liy-modules/liy-module-user/target/
